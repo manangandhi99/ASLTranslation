@@ -45,7 +45,7 @@ Once we found the best model, we fine tuned our parameters (learning rate, momen
 Lastly, we tested our model on new ASL videos. We compared the generated translation from our solution to the expected translation computed manually by us, and determined qualitative accuracy which we go into further below.
 
 # Results
-We managed to achieve 98% training accuracy and 60% test accuracy on our initial dataset. Though we expected these results to translate well to other videos, we have so far achieved limited success. 
+We managed to achieve 98% training accuracy and 60% test accuracy on our initial dataset. Though we expected these results to translate well to other videos, we have so far achieved limited success. We have faced some difficulty recreating these results due to GPU limitations, and an inability to reload models we had previously saved in GPU mode, but were able to at least get to the following results.
 
 ![train loss](https://user-images.githubusercontent.com/29615842/146131345-c5213382-1fd2-4073-8957-87d5e03d8b73.png)
 ![test loss](https://user-images.githubusercontent.com/29615842/146131391-e58c75a1-2228-4f42-bc78-853f1ff3f561.png)
