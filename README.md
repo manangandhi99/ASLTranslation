@@ -3,6 +3,10 @@ CSE 490 Deep Learning Final Project by Manan Gandhi and Neil Kagalwala
 
 # Presentation Video
 
+
+https://user-images.githubusercontent.com/29615842/146134216-d6657d51-e27c-4dd1-a9bc-04b8af3e5691.mp4
+
+
 # Abstract
 American Sign Language (ASL) is the universally adopted standard for communication between humans when one is unable to speak. However, less than 1% of the US population is fluent in ASL. Even more so, most deaf and hard of hearing people don't know sign language. One of the biggest challenges is the lack of dynamic and immediate translation between ASL and English. Using the concepts learned in class, we wanted to design a solution for this that would help eliminate the translation barrier between the two languages.  
 Our motivation for learning about ASL, specifically its translation, comes from our interest in exploring the intersection of AI and accessibility. With this project, we aim to create a proof of concept for a translation tool that takes in video of sign language and translates it into English text. 
