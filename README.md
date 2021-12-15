@@ -56,6 +56,10 @@ When we passed in images extracted from videos into our model, we faced multiple
 # Demo
 
 
+https://user-images.githubusercontent.com/29615842/146134697-a0a234b9-2b63-4986-bf94-a2de6080322c.mp4
+
+
+
 # Next Steps
 While our results were not as expected, we hope to explore and continue working on our solution to make it more expected. Here are a couple extensions of this project that we hope to complete and visit again in the near future:
 1. Object Detection using SSD: SSD would have allowed us to combine object detection and classification with high accuracies in real time. We attempted to implement this, and spent a good amount of time on it. However, we were unable to implement a custom SSD that would work on our dataset after significant effort. Therefore, we decided to take a different approach given the time constraints of this project. 
