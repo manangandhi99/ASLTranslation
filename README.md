@@ -43,7 +43,9 @@ Lastly, we tested our model on new ASL videos. We compared the generated transla
 # Results
 We managed to achieve 98% training accuracy and 60% test accuracy on our initial dataset. Though we expected these results to translate well to other videos, we have so far achieved limited success. 
 
-TODO: Graphs: Train Accuracy, Test Accuracy, Loss
+![train loss](https://user-images.githubusercontent.com/29615842/146131345-c5213382-1fd2-4073-8957-87d5e03d8b73.png)
+![test loss](https://user-images.githubusercontent.com/29615842/146131391-e58c75a1-2228-4f42-bc78-853f1ff3f561.png)
+![test accuracy](https://user-images.githubusercontent.com/29615842/146131421-67bd1e0f-fdc1-40f6-b555-f438a94b3b9f.png)
 
 When we passed in images extracted from videos into our model, we faced multiple challenges. While we initially planned to create a customer SSD for object detection, we faced challenges in implementing it to our needs and with the time constraints. So we decided to use key frame extraction as another way to extract images from the video. However, this was not exactly picking the best images out. To combat this, we also tried to extract more images that anticipated from the videos. For example, if we knew our video had ~20 or so ASL characters, we would extract 100 images. We then used conjoined confidence intervals to make better predictions of the 20 expected characters. Our dependency on using an external library to do this was mainly the issue here, as we believed we could have achieved much better results had we extracted more exact images. 
 
